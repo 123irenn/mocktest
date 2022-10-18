@@ -1,9 +1,9 @@
 
 class Customer{
-	private int customerId;
-	private String customerName;
-	private String emailId;
-	public Customer(int customerId,String customerName,String emailId) {
+private int customerId;
+private String customerName;
+private String emailId;
+public Customer(int customerId,String customerName,String emailId) {
 		super();
 		this.customerId=customerId;
 		this.customerName=customerName;
@@ -93,7 +93,7 @@ public class AccountMani {
 		Customer c=new Customer(101,"Irene","abcd@gmail.com");
 		SavingsAccount s= new SavingsAccount(500,1001,c,1000);
 		System.out.println(s.withdraw(200));
-		// TODO Auto-generated method stub
+		
 
 	}
 
